@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+#main{
+  width: 100%;
+  height: 100%;
+}
+
+#top{
+  width: 100%;
+  height: 60%;
+  background-color: red;
+}
+
+#bottom{
+  width: 100%;
+  height: 40%;
+  background-color: blue;
+  display: flex;
+}
+
+
+.bone{
+  height: 100%;
+  width: 25%;
+  background-color: green;
+}
+
+.btwo{
+  height: 100%;
+  width: 25%;
+  background-color: rgb(238, 193, 16);
+}
+
+.bthree{
+  height: 100%;
+  width: 25%;
+  background-color: rgb(4, 0, 128);
+}
+
+.bfour{
+  height: 100%;
+  width: 25%;
+  background-color: rgb(12, 210, 255);
+}
