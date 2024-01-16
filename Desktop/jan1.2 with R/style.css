@@ -1,55 +1,51 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   box-sizing: border-box;
-
 }
 
-html,body{
+html,
+body {
   width: 100%;
   height: 100%;
 }
 
-#main{
-  width: 100%;
-  height: 100%;
+.home-contener {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(98, 0, 255);
+  position: absolute;
+  
 }
 
-#top{
+.navbar {
   width: 100%;
-  height: 60%;
-  background-color: red;
-}
+  height: 5vh;
+  margin-top: 20px;
 
-#bottom{
-  width: 100%;
-  height: 40%;
-  background-color: blue;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-log{
+  margin-left: 60px;
+}
+
+.nav-option {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ 
 }
 
 
-.bone{
-  height: 100%;
-  width: 25%;
-  background-color: green;
-}
-
-.btwo{
-  height: 100%;
-  width: 25%;
-  background-color: rgb(238, 193, 16);
-}
-
-.bthree{
-  height: 100%;
-  width: 25%;
-  background-color: rgb(4, 0, 128);
-}
-
-.bfour{
-  height: 100%;
-  width: 25%;
-  background-color: rgb(12, 210, 255);
+.nav-btn button{
+  padding: 6px 12px;
+  border: none;
+  border-radius: 7px;
+  font-weight: 500;
+  
 }
